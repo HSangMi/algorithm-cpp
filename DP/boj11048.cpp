@@ -2,6 +2,11 @@
 #include <vector>
 using namespace std;
 
+
+// 이동하기
+
+// 제한적인 방향에서의 미로찾기 이기때문에 DP로 푸는게 가능.(DP표를 채우는 것이 가능)
+// 사방에서 올 수 있었다면 DFS 적용해서 풀이
 vector<vector<int>> dp;
 vector<vector<int>> miro;
 int DP(int x, int y);
